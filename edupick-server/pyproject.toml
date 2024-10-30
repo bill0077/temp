@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "edupick-server"
+version = "0.1.0"
+description = ""
+authors = ["bill0077 <bill007tjr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+Flask = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
